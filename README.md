@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Kalvium Lab | Infinite Scrolling
 
-In the project directory, you can run:
+## Learning Goals
 
-### `npm start`
+In this exercise, we will try to understand and implement `Infinite scrolling` using react hooks and by using a third-party library -> `infinite-scroll-component`. 
+Here is an article which gives a brief description about this library. You are free to explore more about it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[click here](https://www.npmjs.com/package/react-infinite-scroll-component)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In react we have 2 options to implement infinite scroll in our app.
+1. Using a library 
+2. Implement the infinite scroll 
 
-### `npm test`
+We will try the first way, ie: by using the existing library. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The aim of this exercise is to -
+1. How to make an infinite scrolling element. ( which is a very common feature in most of the webapps ).
+2. To give an experience - as how to use a third-party library, and construct something with our existing knowledge of react.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installing
+ npm install --save react-infinite-scroll-component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Task:
 
-### `npm run eject`
+To implement infinite scrolling using react. The following gif, is what we need to achieve.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/infinite-scrolling.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**NOTE:** This way of implementing infinite scrolling is not the only way. There are other ways too. But for this exercise, we only focussed to use some third party library. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Happy Coding Kalvium ❤️!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
